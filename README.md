@@ -7,15 +7,15 @@ Capstone project on Sarcasm Detection using NLP (Kaggle Dataset containing Reddi
 
 The project folder contains a project report and coding (in 5 parts):-
 
-  Part 1. Exploratory Data Analysis
+    Part 1. Exploratory Data Analysis
   
-  Part 2. Modelling using conventional Machine Learning Approaches
+    Part 2. Modelling using conventional Machine Learning Approaches
   
-  Part 3a. Deep learning approach using Multi-Layer Perceptron (Feed forward neural network)
+    Part 3a. Deep learning approach using Multi-Layer Perceptron (Feed forward neural network)
   
-  Part 3b. Deep learning approach using BERT Transformer and BLSTM 
+    Part 3b. Deep learning approach using BERT Transformer and BLSTM 
   
-  Part 3c. Deep learning approach using BERT Transformer and BLSTM with finetuning
+    Part 3c. Deep learning approach using BERT Transformer and BLSTM with finetuning
 
 2. Institute of Data (IOD) Mini-Project:
 
