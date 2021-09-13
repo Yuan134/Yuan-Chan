@@ -1,5 +1,5 @@
 # Yuan-Chan
-Data Science Projects
+DATA SCIENCE PROJECTS
 
 1. Institute of Data (IOD) Capstone Project: 
 
