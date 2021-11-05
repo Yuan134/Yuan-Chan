@@ -28,4 +28,5 @@ This project examines the importance of various features in predicting rainfall 
 Sample assignment lab exercises for the following:
 - SQL 
 - MongoDB
+- Google BigQuery
 - API interactions
