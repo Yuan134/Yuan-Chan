@@ -32,7 +32,7 @@ Project on "Prediction of Australian Rainfall" using a Kaggle Dataset.
 This project examines the importance of various features in predicting rainfall as well as approaches for statistical imputation of missing values and under / over-sampling (including SMOTE) to handle dataset imbalance.
 
 
-4. IOD Miscellaneous Lab Exercises (Lab 3):
+4. IOD Miscellaneous Lab Exercises (IOD Lab 3):
 
 Sample assignment lab exercises for the following:
 - SQL 
