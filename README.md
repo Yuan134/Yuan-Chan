@@ -22,3 +22,10 @@ The project folder contains a project report and coding (in 5 parts):-
 Project on prediction of Australian Rainfall using a Kaggle Dataset.
 
 This project examines the importance of various features in predicting rainfall as well as approaches for statistical imputation of missing values and under / over-sampling (including SMOTE) to handle dataset imbalance.
+
+3. IOD Lab 3:
+
+Sample assignment lab exercises for the following:
+- SQL 
+- MongoDB
+- API interactions
