@@ -13,7 +13,7 @@ The project folder contains a project report and coding (in 5 parts):-
   
     Part 3a. Deep learning approach using Multi-Layer Perceptron (Feed forward neural network)
   
-    Part 3b. Deep learning approach using BERT Transformer and BLSTM 
+    Part 3b. Deep learning approach using BERT Transformer and Bi-Directional Long Short Term Memory (BLSTM) 
   
     Part 3c. Deep learning approach using BERT Transformer and BLSTM with finetuning
 
