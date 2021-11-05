@@ -21,4 +21,4 @@ The project folder contains a project report and coding (in 5 parts):-
 
 Project on prediction of Australian Rainfall using a Kaggle Dataset.
 
-This project examines the importance of various features in predicting rainfall as wellas approaches for statistical imputation of missing values and under / over-sampling (including SMOTE) to handle dataset imbalance.
+This project examines the importance of various features in predicting rainfall as well as approaches for statistical imputation of missing values and under / over-sampling (including SMOTE) to handle dataset imbalance.
