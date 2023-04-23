@@ -31,3 +31,11 @@ Project on "Prediction of Australian Rainfall" using a Kaggle Dataset.
 
 This project examines the importance of various features in predicting rainfall as well as approaches for statistical imputation of missing values and under / over-sampling (including SMOTE) to handle dataset imbalance.
 
+
+PYTHON DATA STRUCTURES CODING PROJECTS
+
+1. Lab2
+Python module to convert Prefix notation into Postfix notation using: a) Direct recursive approach b) Binary tree based recursive approach
+
+2. Lab3
+Python module to employ Huffman encoding / decoding. Includes module to convert a corpus text into a Huffman Frequency table.
