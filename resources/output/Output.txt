@@ -1,0 +1,127 @@
+HUFFMAN TREE IN PRE-ORDER TRAVERSAL:
+====================================
+
+          ABCDEFGHIJKLMNOPQRSTUVWXYZ:413(root)
+        DEFJKLMNVW:169(L);
+      JKLMVW:80(L);
+    LM:39(L);
+  M:19(L);
+      L:20(R);
+        JKVW:41(R);
+      JKV:20(L);
+    K:10(L);
+        JV:10(R);
+      J:5(L);
+          V:5(R);
+          W:21(R);
+          DEFN:89(R);
+        E:42(L);
+            DFN:47(R);
+          DF:23(L);
+        D:11(L);
+            F:12(R);
+              N:24(R);
+            ABCGHIOPQRSTUXYZ:244(R);
+          GPQRTUXYZ:106(L);
+        RT:50(L);
+      R:25(L);
+          T:25(R);
+            GPQUXYZ:56(R);
+          GP:27(L);
+        P:13(L);
+            G:14(R);
+              QUXYZ:29(R);
+            QXYZ:14(L);
+          QXZ:6(L);
+        Z:3(L);
+            QX:3(R);
+          Q:1(L);
+              X:2(R);
+              Y:8(R);
+                U:15(R);
+              ABCHIOS:138(R);
+            BCHI:66(L);
+          BI:32(L);
+        B:16(L);
+            I:16(R);
+              CH:34(R);
+            C:17(L);
+                H:17(R);
+                AOS:72(R);
+              S:35(L);
+                  AO:37(R);
+                O:18(L);
+                    A:19(R);
+
+FREQUENCY TABLE ENCODING:
+=========================
+M -> 0000
+L -> 0001
+K -> 00100
+J -> 001010
+V -> 001011
+W -> 0011
+E -> 010
+D -> 01100
+F -> 01101
+N -> 0111
+R -> 1000
+T -> 1001
+P -> 10100
+G -> 10101
+Z -> 1011000
+Q -> 10110010
+X -> 10110011
+Y -> 101101
+U -> 10111
+B -> 11000
+I -> 11001
+C -> 11010
+H -> 11011
+S -> 1110
+O -> 11110
+A -> 11111
+
+<<WARNING: Non-alphabetical characters detected in CLEAR TEXT file and have been IGNORED in non-enhanced mode.>>
+Non-Alphabetical Character: ' ' Occurrences: 28
+Non-Alphabetical Character: '.' Occurrences: 3
+Non-Alphabetical Character: ',' Occurrences: 1
+Non-Alphabetical Character: '?' Occurrences: 1
+
+CLEAR TEXT TO ENCODING:
+=======================
+TEXT: Sallysellsseashellsbytheseashore
+ENCODING: 11101111100010001101101111001000010001111011100101111111101101101000010001111011000101101100111011010111001011111111011011111101000010
+BEFORE HUFFMAN COMPRESSION: No. of Characters = 32; No. of ASCII Bits = 256
+AFTER HUFFMAN COMPRESSION: No. of Bits = 134
+% COMPRESSED: 47.7
+
+TEXT: PeterPiperpickedapeckofpickledpeppersapeckofpickledpeppersPeterPiperpicked
+ENCODING: 10100010100101010001010011001101000101000101001100111010001000100110011111101000101101000100111100110110100110011101000100000101001100101000101010010100010100011101111110100010110100010011110011011010011001110100010000010100110010100010101001010001010001110101000101001010100010100110011010001010001010011001110100010001001100
+BEFORE HUFFMAN COMPRESSION: No. of Characters = 74; No. of ASCII Bits = 592
+AFTER HUFFMAN COMPRESSION: No. of Bits = 326
+% COMPRESSED: 44.9
+
+TEXT: HoustontheEaglehaslanded
+ENCODING: 11011111101011111101001111100111100111011010010111111010100010101101111111111000011111101110110001001100
+BEFORE HUFFMAN COMPRESSION: No. of Characters = 24; No. of ASCII Bits = 192
+AFTER HUFFMAN COMPRESSION: No. of Bits = 104
+% COMPRESSED: 45.8
+
+TEXT: Isthatyourfinalanswer
+ENCODING: 1100111101001110111111110011011011111010111100001101110010111111110001111110111111000110101000
+BEFORE HUFFMAN COMPRESSION: No. of Characters = 21; No. of ASCII Bits = 168
+AFTER HUFFMAN COMPRESSION: No. of Bits = 94
+% COMPRESSED: 44.0
+
+
+ENCODED TO DECODED TEXT:
+========================
+ENCODING: 01011001010110011111011011
+DECODED TEXT: EIEIOH
+
+ENCODING: 10110000101010011011101101100010110010101100010111000110111
+DECODED TEXT: ZEPHYRQZULU
+
+ENCODING: 11111110001000111111101011111011001111111000100011111000001010000001110010111
+DECODED TEXT: ABRACADABRAMERLIN

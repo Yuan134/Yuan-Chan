@@ -1,0 +1,134 @@
+HUFFMAN TREE IN PRE-ORDER TRAVERSAL:
+====================================
+
+          ABCDEFGHIJKLMNOPQRSTUVWXYZ:413(root)
+        DEFJKLMNVW:169(L);
+      JKLMVW:80(L);
+    LM:39(L);
+  M:19(L);
+      L:20(R);
+        JKVW:41(R);
+      JKV:20(L);
+    K:10(L);
+        JV:10(R);
+      J:5(L);
+          V:5(R);
+          W:21(R);
+          DEFN:89(R);
+        E:42(L);
+            DFN:47(R);
+          DF:23(L);
+        D:11(L);
+            F:12(R);
+              N:24(R);
+            ABCGHIOPQRSTUXYZ:244(R);
+          GPQRTUXYZ:106(L);
+        RT:50(L);
+      R:25(L);
+          T:25(R);
+            GPQUXYZ:56(R);
+          GP:27(L);
+        P:13(L);
+            G:14(R);
+              QUXYZ:29(R);
+            QXYZ:14(L);
+          QXZ:6(L);
+        Z:3(L);
+            QX:3(R);
+          Q:1(L);
+              X:2(R);
+              Y:8(R);
+                U:15(R);
+              ABCHIOS:138(R);
+            BCHI:66(L);
+          BI:32(L);
+        B:16(L);
+            I:16(R);
+              CH:34(R);
+            C:17(L);
+                H:17(R);
+                AOS:72(R);
+              S:35(L);
+                  AO:37(R);
+                O:18(L);
+                    A:19(R);
+
+FREQUENCY TABLE ENCODING:
+=========================
+M -> 0000
+L -> 0001
+K -> 00100
+J -> 001010
+V -> 001011
+W -> 0011
+E -> 010
+D -> 01100
+F -> 01101
+N -> 0111
+R -> 1000
+T -> 1001
+P -> 10100
+G -> 10101
+Z -> 1011000
+Q -> 10110010
+X -> 10110011
+Y -> 101101
+U -> 10111
+B -> 11000
+I -> 11001
+C -> 11010
+H -> 11011
+S -> 1110
+O -> 11110
+A -> 11111
+
+<<WARNING: Non-alphabetical characters detected in CLEAR TEXT file and have been IGNORED in non-enhanced mode.>>
+Non-Alphabetical Character: ''' Occurrences: 1
+Non-Alphabetical Character: ' ' Occurrences: 13
+Non-Alphabetical Character: '1' Occurrences: 2
+Non-Alphabetical Character: ':' Occurrences: 1
+Non-Alphabetical Character: '!' Occurrences: 1
+
+CLEAR TEXT TO ENCODING:
+=======================
+TEXT: Itsabeautifullife
+ENCODING: 1100110011110111111100001011111101111001110010110110111000100011100101101010
+BEFORE HUFFMAN COMPRESSION: No. of Characters = 17; No. of ASCII Bits = 136
+AFTER HUFFMAN COMPRESSION: No. of Bits = 76
+% COMPRESSED: 44.1
+
+TEXT: JohnInthebeginningwastheword
+ENCODING: 0010101111011011011111001011110011101101011000010101011100101110111110010111101010011111111110100111011010001111110100001100
+BEFORE HUFFMAN COMPRESSION: No. of Characters = 28; No. of ASCII Bits = 224
+AFTER HUFFMAN COMPRESSION: No. of Bits = 124
+% COMPRESSED: 44.6
+
+TEXT: Iwantthetruth
+ENCODING: 11001001111111011110011001110110101001100010111100111011
+BEFORE HUFFMAN COMPRESSION: No. of Characters = 13; No. of ASCII Bits = 104
+AFTER HUFFMAN COMPRESSION: No. of Bits = 56
+% COMPRESSED: 46.2
+
+
+ENCODED TO DECODED TEXT:
+========================
+ENCODING: 1100110011110111111100001011111101111001110010110110111000100011100101101010
+DECODED TEXT: ITSABEAUTIFULLIFE
+
+ENCODING: 0010101111011011011111001011110011101101011000010101011100101110111110010111101010011111111110100111011010001111110100001100
+DECODED TEXT: JOHNINTHEBEGINNINGWASTHEWORD
+
+ENCODING: 11001001111111011110011001110110101001100010111100111011
+DECODED TEXT: IWANTTHETRUTH
+
+ENCODING: 00
+DECODED TEXT: 
+WARNING! Check validity of binary string. String '00' could not be decoded!
+
+ENCODING: 0001001
+DECODED TEXT: L
+WARNING! Check validity of binary string. Substring '001' was not completed!
+
+ENCODING: 111110
+DECODED TEXT: A
+WARNING! Check validity of binary string. Substring '0' was not completed!
