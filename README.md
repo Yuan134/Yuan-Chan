@@ -32,7 +32,7 @@ Project on "Prediction of Australian Rainfall" using a Kaggle Dataset.
 This project examines the importance of various features in predicting rainfall as well as approaches for statistical imputation of missing values and under / over-sampling (including SMOTE) to handle dataset imbalance.
 
 
-# SELF-GUIDED DATA STRUCTURES & ALGORITHMS CODING PROJECTS
+# SELF-GUIDED DATA STRUCTURES & ALGORITHMS CS PROJECTS
 
 Unguided projects for data structures and algorithms using Python coding. 
 Refer to attached README and Analysis Reports for a summary of project objectives, results and insights.
