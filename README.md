@@ -35,7 +35,7 @@ This project examines the importance of various features in predicting rainfall 
 # SELF-GUIDED DATA STRUCTURES & ALGORITHMS CODING PROJECTS
 
 Unguided projects for data structures and algorithms using Python coding. 
-Refer to attached README and Analysis Reports for a summary of results and insights.
+Refer to attached README and Analysis Reports for a summary of project objectives, results and insights.
 
 ### 1. Lab1
 Python module to convert Prefix notation into Postfix notation using a Stack ADT using singly linked list implementation
