@@ -34,8 +34,16 @@ This project examines the importance of various features in predicting rainfall 
 
 # SELF GUIDED DATA STRUCTURES & ALGORITHMS CODING PROJECTS IN PYTHON
 
-### 1. Lab2
+Unguided projects for data structures and algorithms using Python coding. Refer to attached analysis reports for a summary of results and insights.
+
+### 1. Lab1
+Python module to convert Prefix notation into Postfix notation using a Stack data structure
+
+### 2. Lab2
 Python module to convert Prefix notation into Postfix notation using: a) Direct recursive approach b) Binary tree based recursive approach
 
-### 2. Lab3
-Python module to employ Huffman encoding / decoding. Includes module to convert a corpus text into a Huffman Frequency table.
+### 3. Lab3
+Python module to employ Huffman encoding / decoding. Includes module to convert a corpus text into a Huffman Frequency table
+
+### 4. Lab4
+Python module to compare Quick Sort algorithm against Natural Merge Sort against datasets containing various sizes (up to 3000) randomly generated integers
